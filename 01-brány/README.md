@@ -31,7 +31,7 @@ end architecture dataflow;
    | 1 | 1 | 1 | 0 | 0 | 0 |
 
 ### Distributive laws
-
+![obr3](https://user-images.githubusercontent.com/124684834/218272987-e602cba8-6d23-453e-a559-e9c9fb125d34.png)
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
    ![obr2](https://user-images.githubusercontent.com/124684834/218272895-609bd387-2642-4567-9260-0418cc607567.png)
