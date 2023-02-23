@@ -10,12 +10,7 @@ with sel_i select
     f_o <= a_i when "00",  -- If addr_i = "00" then f_o = a_i
            b_i when "01",
            c_i when "10",
-<<<<<<< HEAD
-           d_i when others; -- All other combinations
-=======
            d_i when others; -- All other combinations 
->>>>>>> 39c3b3b649086c3844961433e7a731bcb83ad3e8
-
 end architecture Behavioral;
 ```
 
