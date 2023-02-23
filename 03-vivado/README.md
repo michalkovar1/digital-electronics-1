@@ -1,4 +1,4 @@
-# Lab 3: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 3: MIchal Kovář
 
 ### Three-bit wide 4-to-1 multiplexer
 
@@ -7,8 +7,11 @@
 ```vhdl
 architecture Behavioral of mux_3bit_4to1 is
 begin
-
-    -- WRITE YOUR CODE HERE
+with sel_i select
+    f_o <= a_i when "00",  -- If addr_i = "00" then f_o = a_i
+           b_i when "01",
+           c_i when "10",
+           d_i when others; -- All other combinations
 
 end architecture Behavioral;
 ```
