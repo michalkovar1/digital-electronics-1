@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Lab 3: MIchal Kovář
-=======
 # Lab 3: Michal Kovář
->>>>>>> 39c3b3b649086c3844961433e7a731bcb83ad3e8
-
 ### Three-bit wide 4-to-1 multiplexer
 
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
@@ -26,7 +21,8 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![multi](https://user-images.githubusercontent.com/124684834/220730956-d0746d08-c782-491d-9f77-4a9e7c72adeb.png)
+![multi](https://user-images.githubusercontent.com/124684834/220844750-964335b2-99c8-4dbd-8094-9979b2e9fa0e.png)
+
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
