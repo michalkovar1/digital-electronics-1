@@ -51,7 +51,7 @@ architecture Behavioral of top is
 begin
     clk_en0: entity work.clock_enable
         generic map(
-            g_MAX => 25000000
+            g_MAX => 250000000
             )
         port map(
             clk => CLK100MHZ,  

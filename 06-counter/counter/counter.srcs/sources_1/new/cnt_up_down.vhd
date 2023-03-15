@@ -64,9 +64,6 @@ begin
         else 
             sig_cnt <= sig_cnt -1;
         end if;    
-        -- TEST COUNTER DIRECTION HERE
-
-          sig_cnt <= sig_cnt + 1;
       end if;
     end if;
 
