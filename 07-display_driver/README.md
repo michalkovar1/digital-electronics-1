@@ -41,7 +41,7 @@
           when others =>
             sig_hex <= data0;
             dp      <= dp_vect(0);
-            dig     <= "1100";
+            dig     <= "1110";
 
         end case;
 
@@ -55,4 +55,4 @@
 
 1. Image of the 8-digit driver's block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components, and internal signals!
 
-   ![your figure]()
+   ![IMG_20230326_152948](https://user-images.githubusercontent.com/124684834/227779393-309b03e8-97a5-4eff-8f64-6b6eece28581.jpg)
